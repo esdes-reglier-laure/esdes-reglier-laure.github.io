@@ -6,16 +6,12 @@ Projet de cours ESDES - création de blog
 Création de blog lifestyle  
 
 ## Première page 
-- liens internes et externes 
-- image 
-- texte
-- icônes réseaux sociaux 
-- barre de recherche 
-- onglets 
+- 3 images cliquables qui renvoient à un article 
+- dans la barre en haut : contact qui renvoie à une page de contact + réseaux sociaux cliquables   
 
 ### Références : 
 - http://alittledaisyblog.com/ 
-j'aime : les images qui défilent seules avec des liens, barre de menu fixe, bouton pour revenir en haut, environnement
+j'aime : les images qui défilent seules avec des liens, bouton pour revenir en haut, 
 - http://carnetprune.com/
 j'aime : l'animation de début, les images qui défilent
 
