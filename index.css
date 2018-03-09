@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+html, body{
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+
+header{
+    background-image: url("img/bureau.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+    color:black;
+    background : white;
+    border-radius: 8px;
+    border: solid black 2px;
+    font-size: 40px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+    font-family: 'Poiret One', cursive;   
+}
+
+header h1:hover {
+/* mouse over link */
+    background-color: black;  
+    color:white;  
+    border-color: white;
+}
+
+header a{
+    cursor: pointer;
+}
+
+section{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:stretch;
+    justify-content:center;
+    min-height:100%;
+}
+article{
+    display:block;
+    flex-direction:row;
+    width:20%;
+    margin:30px;
+    padding:20px 5px 20px 5px;
+    background-color: black;
+    color: black;
+    text-align: center;
+    background-size: cover;
+    cursor: pointer;
+    font-family: 'Poiret One', cursive; 
+}
+article:hover{
+    filter:grayscale(100%);
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+}
+#article-1{background-image: url("img/café.jpg")}
+#article-2{background-image: url("img/livre.jpeg")}
+#article-3{background-image: url("img/music.jpeg")}
+#article-4{background-image: url("img/PC.jpeg")}
+#article-5{background-image: url("img/photo.jpeg")}
+#article-6{background-image: url("img/iphone.jpeg")}
+
+  [type="search"] {
+    -webkit-appearance: textfield; 
+    -webkit-box-sizing: content-box;
+ }
+
+Footer{
+    background-color: black;
+    height: 30%;
+}
+
