@@ -1,57 +1,88 @@
 <!Doctype html>
-    <html>
-        <head>
-            <meta charset="UTF-8"/>
-            <link rel="stylesheet" href="index.css"/>
-        </head>
+<html>
+    <head>
+        <style type="text/css">a:link{text-decoration: none; color: inherit;}</style> <!--pour retirer le souligné des liens-->
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style/common/css"/>        
+        <link rel="stylesheet" href="index.css"/>
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        
+            
+    </head>
 
-        <body>
+    <body>
 
-            <header>
-                <h1>  Bienvenue </h1>
-                <a href="http://facebook.com"><img src="http://www.samanea-resort.com/wp-content/uploads/2017/06/facebook-logo.png" border="0" /></a>
-                <input type="search" placeholder="Entrez un mot-clef" name="the_search">
+        <header>
 
-           </header>
+            <!--barre de menu-->
+            <div id="menu">
+                <a href="index.html">
+                <button> <i class="fa fa-home"></i> </button>
+                <a href="pages/contact.html">
+                <button> Contact </button>
+                <a href="https://www.facebook.com/lreglier">
+                <button> <i class="fab fa-facebook-f"></i> </button>
+                <a href="http://www.pictame.com/user/laure.reglier/2759942914">
+                <button> <i class="fab fa-instagram"></i> </button>
+                <a href="https://www.linkedin.com/in/laure-emmanuelle-reglier/">
+                <button> <i class="fab fa-linkedin-in"></i> </button>
+            </a>
+            </div>
 
-            <section>
-                
+            <!--titre blog-->
+            <div id="title">
+                <a href="pages/mylittleworld.html">
+                <h1>  My Little World </h1>
+                <p> Lifestyle </p>
+                </a>
+            </div>
+
+            <!--flèche sous le titre-->
+            <a class= "arrow" href="#main-page">
+                <i class="fas fa-angle-down"></i>    
+            </a>
+                        
+        </header>
+            <section id="main-page">                        
                 <article id="article-1">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum </p>
+                    <a href="pages/article1.html"> <!--comment diffuser le lien sur toute l'image + retirer violet souligné ?-->                           
+                    <h2> Make-up </h2>
+                    <p> Tuto beauté </p>
+                    </a>
                 </article>
 
                 <article id="article-2">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum </p>
+                    <a href="pages/article2.html">
+                    <h2> Cuisine </h2>
+                    <p> Recettes </p>
+                    </a>
                 </article>
 
                 <article id="article-3">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum</p>
+                    <h2> Brunch </h2>
+                    <p> Meilleures adresses </p>
                 </article>    
 
                 <article id="article-4">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum</p>
+                    <h2> Voyages </h2>
+                    <p> To do </p>
                 </article>    
 
                 <article id="article-5">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum</p>
+                    <h2> Shooting </h2>
+                    <p> Expériences </p>
                 </article>    
 
                 <article id="article-6">
-                    <h2> Article </h2>
-                    <p> Lorem Ipsum</p>
-                </article>    
-
-            </section>
+                    <h2> Nail art </h2>
+                    <p> Tuto beauté </p>
+                </article>  
+            </section>            
 
         <footer>
-
+            <h6> COPYRIGHT © 2018 MY LITTLE WORLD BLOG - TOUS DROITS RESERVES </h6>
         </footer>
         
         </body>
-    </html>
+</html>
 </Doctype>
