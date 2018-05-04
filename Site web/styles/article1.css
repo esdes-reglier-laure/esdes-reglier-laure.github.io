@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+html, body{
+    height: 100%;
+}
+
+#title{
+    height: 100%;
+    width: 100%;
+    background-image:url("../img/baking.jpg");
+    background-size:cover;    
+    background-repeat: no-repeat; 
+    background-position: center;        
+    display: flex;
+    flex-direction: column;
+    background-attachment: absolute;
+}
+
+#title h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+    margin-top: 35%;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    animation: enter 2s ease-in-out 1 alternate;  
+    color: white;
+}
+
+#recette{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    background-color:white;
+    color:black;
+    padding:20px;
+    text-align: center;
+}
+
+li{
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+#form{
+    padding: 10px;
+    font-family: 'Poiret One', cursive;    
+    border-width: 5px;
+}
+
+/** texte "Vous avez aimé ? Laisser un commentaire" **/
+#form h2{
+    color: #A82525;
+}
+
+@keyframes enter {
+    from {
+        transform: translateX(-300px);        
+}
+    to {
+        transform: translateX(0px);
+    }
+}

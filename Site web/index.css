@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+html, body{
+    height: 100%;
+}
+
+#title{
+    background-image: url("img/makeup3.jpeg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+#title h1{
+    margin: 0;
+    text-align: center;
+    color:black;
+    background : white;
+    border-radius: 8px;
+    border: dotted black 2px;
+    font-size: 60px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+    font-family: 'Poiret One', cursive;  
+    animation: enter 2s ease-in-out infinite alternate;  
+}
+
+/*mouse over link*/
+#title h1:hover {
+    background-color: black;  
+    color:white;  
+    border-color: white;
+}
+/* sous-titre Lifestyle*/
+#title p{
+    color:#B84C4C;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+}
+
+/*flèche sous le titre*/
+.arrow{
+    color: black;
+    font-size: 30px;
+    font-weight: 20px;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    font-size: 40px;
+    transition: all 3s ease;
+}
+
+#main-page{
+    min-height: 100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:stretch;
+    justify-content:center;
+}
+
+article{
+    display: block;
+    flex-direction: row;
+    width: 20%;
+    margin: 30px;
+    padding: 20px 5px 20px 5px;
+    color: black;
+    text-align: center;
+    background-size: cover;
+    cursor: pointer;
+    font-family: 'Poiret One', cursive; 
+}
+
+article:hover{
+    filter: grayscale(100%);
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+}
+
+#article-1{background-image: url("img/cupcake.jpeg")}
+#article-2{background-image: url("img/makeup.jpeg")}
+#article-3{background-image: url("img/party.jpeg")}
+#article-4{background-image: url("img/pictures.jpeg")}
+#article-5{background-image: url("img/women.jpeg")}
+#article-6{background-image: url("img/nails.jpeg")}
+
+
+
+/* responsive */
+/* mobile */
+@media screen and (max-width: 600px) {
+    section{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        min-height: 100%;    
+    }
+    article{
+        width: 80%;
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    article{
+        width: 37%;
+    }
+}
+
+/* définition de l'animation */
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+}
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+    

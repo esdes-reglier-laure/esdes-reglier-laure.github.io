@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+html, body{
+    height: 100%;
+}
+
+#info{
+    background-image:url("../img/makeup3.jpeg");
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+#info h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    background : black;
+    border-radius: 8px;
+    border: dotted white 2px;
+    font-size: 60px;
+    padding: 5px 10px 5px 10px;
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+    font-family: 'Poiret One', cursive;  
+    margin-bottom: 70px;
+}
+
+/* sous-titre */
+#info p{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+    margin:10px;
+}
