@@ -1,49 +1,98 @@
 <!Doctype html>
 
-<html>
-    <head>
-        <meta charset="UTF-8"/> <!--caractères spéciaux-->
-        <link rel="stylesheet" href="../style/common.css"/>
-        <link rel="stylesheet" href="../style/article1.css"/>
-        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-    </head>
+<html lang="fr">
+        
+<head>
+    <meta charset="UTF-8" />
+    <!--caractères spéciaux-->
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link rel="stylesheet" href="../styles/article1.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
 
-    <body>      
-        <header> 
- 
-            <!--barre de menu-->
-            <div id="menu">
-                    <a href="file:///C:/Users/Laure/Desktop/ESDES%204A%20MDBA/Codage/Site%20web/index.html"> 
+<body>
+    <header>
+
+        <!--barre de menu-->
+        <div id="menu">
+            <a href="file:///C:/Users/Laure/Desktop/ESDES%204A%20MDBA/Codage/Site%20web/index.html"> 
                     <button> <i class="fa fa-home"></i> </button>
-                    <a href="contact.html">
+               <a href="contact.html">
                     <button> Contact </button>
-                    <a href="https://www.facebook.com/lreglier">
+               <a href="https://www.facebook.com/lreglier">
                     <button> <i class="fab fa-facebook-f"></i> </button>
-                    <a href="http://www.pictame.com/user/laure.reglier/2759942914">
+                <a href="http://www.pictame.com/user/laure.reglier/2759942914">
                     <button> <i class="fab fa-instagram"></i> </button>
-                    <a href="https://www.linkedin.com/in/laure-emmanuelle-reglier/">
+                <a href="https://www.linkedin.com/in/laure-emmanuelle-reglier/">
                     <button> <i class="fab fa-linkedin-in"></i> </button>
-                </a>
-                </div>
+                <a href="#top" id="back_to_top" class="toggle"> Retour en haut <i class="fa fa-angle-up"></i></a>
+            </a>
+        </div>
 
-            <div id="title">
-                <h> LES MUFFINS MAISON </h>
-            </div>
-        </header>
-        
-        <section>
-            <article>
-                <h1> La recette incontournable des muffins </h1>
-                <p> description de l'article description de l'article description de l'article description de l'article description de l'article description de l'article description de l'article </p>
-            </article>
-            
-        </section>
-        
-        <footer>
-            <h6> COPYRIGHT © 2018 MY LITTLE WORLD BLOG - TOUS DROITS RESERVES </h6>            
-        </footer>
-        
-        </header>
-    </body>
-    </html>
-</Doctype>
+    </header>
+
+    <section id="title">
+        <h1> LES MUFFINS MAISON </h1>
+    </section>
+
+    <article id="recette">
+        <h2> La recette incontournable des muffins </h2>
+        <p1> "Découvrez la recette de Muffins, délicieuse au petit déjeuner ou au goûter grâce à son moelleux incomparable et
+            le croquant de son chocolat." </p1>
+
+
+        <ul>
+            <li> 150 g de farine </li>
+            <li> 75 g de sucre en poudre </li>
+            <li> 4 cuillères à soupe de lait </li>
+            <li> 1 oeuf </li>
+            <li> 1/2 sachet de levure chimique </li>
+            <li> 50 g de beurre </li>
+            <li> 100 g de chocolat dessert </li>
+            <li> 1 pincée de sel </li>
+            <li> 4 petits moules ronds en aluminium (ou ramequins) </li>
+
+        </ul>
+
+        <ol>
+            <li> Préchauffer le four à 200°c. Beurrer les moules. </li>
+            <li> Faire fondre le beurre, y ajouter le lait puis l'oeuf battu. Bien mélanger. </li>
+            <li> Dans un saladier, mettre la farine, le sucre, la levure et le sel puis y incorporer la préparation liquide. </li>
+            <li> Bien mélanger jusqu'à l'obtention d'une pâte bien lisse. </li>
+            <li> Couper le chocolat en pépites et les ajouter à la pâte. </li>
+            <li> Pour finir, remplir les moules au 3/4 et enfourner pendant 18 minutes environ. Attendre quelques minutes avant
+                de démouler. </li>
+        </ol>
+
+
+        <img src="../img/cook.jpg" alt="muffin" width="500" height="377">
+        <img src="../img/muffin.jpg" alt="muffin" width="500" height="377">
+
+
+    </article>
+
+    <section id="form">
+        <h2> Vous avez aimé ? Laisser un commentaire</h2>
+        <form>
+            <fieldset>
+                <legend>Mon commentaire</legend>
+                <br> Pseudo :
+                <br>
+                <input type="text" value="">
+                <br>
+                <br> Commentaire :
+                <br>
+                <textarea name="comment" id="commentaire" rows="10" cols="50"> </textarea> <br><br>
+                <input type="submit" value="Envoyer">
+            </fieldset>
+        </form>
+
+    </section>
+
+    <footer>
+        <h6> COPYRIGHT © 2018 MY LITTLE WORLD BLOG - TOUS DROITS RESERVES </h6>
+    </footer>
+
+</body>
+
+</html>
