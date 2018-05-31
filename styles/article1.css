@@ -4,6 +4,7 @@ html, body{
     height: 100%;
 }
 
+/** en tête image **/
 #title{
     height: 100%;
     width: 100%;
@@ -16,6 +17,7 @@ html, body{
     background-attachment: absolute;
 }
 
+/** titre animé "les muffins maison" **/
 #title h1{
     text-align: left;
     font-size: 40px;
@@ -27,29 +29,98 @@ html, body{
     color: white;
 }
 
-#recette{
+/** titre "incroyable recette" **/
+#recette h1{
     font-family: 'Poiret One', cursive;   
-    font-size:20px;
+    font-size:30px;
     background-color:white;
     color:black;
-    padding:20px;
     text-align: center;
-}
-
-#recette h2{
     color:#A82525;
 }
 
-li{
-    text-align: left;
+/** description recette **/
+#recette h2{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    color:black;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+/** sous titre ingrédients & préparation **/
+#recette h3{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    color:#A82525;
+    font-weight: bold;
     padding: 0px 0px 0px 20px;
+    text-decoration: underline; 
+}
+
+/** conseils & variantes **/
+#recette h4{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    color:black;
+    padding: 0px 20px 0px 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/** liste **/
+#recette li{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    color:black;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+#recette ul{
+    padding: 0px 0px 0px 75px;
+}
+
+#recette ol{
+    padding: 0px 0px 0px 75px;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+#photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: black;
+}
+
+/** autres sites **/
+
+#sites{
+    padding: 30px 0px 0px 20px;
+}
+
+#sites p1{
+    font-family: 'Poiret One', cursive;   
+    font-size:20px;
+    color:black;
+}
+
+/*mouse over link*/
+a:hover {
+    font-weight: bold;
 }
 
 /* pour retirer le soulignage et la couleur des liens */
 a{ 
     text-decoration: none; 
     color:#A82525;
-    font-weight: bold;
 }
 
 #form{

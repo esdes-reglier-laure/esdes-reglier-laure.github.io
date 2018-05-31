@@ -4,10 +4,6 @@ html, body{
     height: 100%;
 }
 
-/** à revoir avec le HTML **/
-
-
-
 #about-me{
     background-image: url("../img/bureau2.jpeg");
     background-repeat: no-repeat; 
@@ -20,12 +16,11 @@ html, body{
     justify-content: center; 
     align-items: center;
     font-family: 'Poiret One', cursive;  
-    padding: 0px 15px 0px 15px;
 }
 
-/** titre Bienvenue **/
+/** titre "un peu plus à propos de moi ?" **/
 #about-me h1{
-    width: 100%;
+    width: 75%;
     background: rgba(158, 157, 157, 0.4);
     color: white;
     font-size: 18px;
@@ -35,17 +30,26 @@ html, body{
     font-weight: normal;
 }
 
-
 /** illustration portrait **/
 .laure{
     border-radius: 50px;
     border-color: black;
     border-style: dotted;
     border-width: 2px;  
+    cursor: pointer;
+    filter: grayscale(100%);
 }
 
 span{
     font-weight: bold;
     color: white;
 }
+
+.laure:hover{
+    width:220px;
+    height:300px;
+    filter: grayscale(0%);
+    transition: all 0.3s cubic-bezier(.01,.4,1,.62);
+}
+
 

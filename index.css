@@ -62,6 +62,21 @@ html, body{
     transition: all 3s ease;
 }
 
+#intro{
+    background-color: black;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    padding: 15px 10px 15px 10px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+}
+
+span{
+    color: #B84C4C;
+    font-size: bold;
+}
+
 #main-page{
     min-height: 100%;
     display:flex;
@@ -129,12 +144,11 @@ a{
 @keyframes enter {
     from {
         opacity: 0;
-        transform: translateX(100px);
 }
     to {
         opacity: 1;
-        transform: translateX(0);
     }
 }
+
 
     
