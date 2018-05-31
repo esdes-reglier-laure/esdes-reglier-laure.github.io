@@ -64,6 +64,13 @@ span{
     color:#A82525;
 }
 
+/* pour retirer le soulignage et la couleur des liens */
+a{ 
+    text-decoration: none; 
+    color:#A82525;
+    font-weight: bold;
+}
+
 #autres_sujets{
     font-family: 'Poiret One', cursive;    
     border-width: 5px;
