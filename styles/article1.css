@@ -127,15 +127,13 @@ a{
     color:#A82525;
 }
 
-#form{
-    padding: 10px;
-    font-family: 'Poiret One', cursive;    
-    border-width: 5px;
-}
 
 /** texte "Vous avez aimé ? Laisser un commentaire" **/
 #form h2{
     color: #A82525;
+    font-family: 'Poiret One', cursive; 
+    padding: 0px 0px 10px 10px;
+    text-align: center;
 }
 
 @keyframes enter {

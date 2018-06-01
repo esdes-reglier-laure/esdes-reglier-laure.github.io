@@ -9,7 +9,7 @@ html, body{
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
-    height: 130%;
+    height: 160%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,4 +39,23 @@ html, body{
     font-family: 'Poiret One', cursive;
     margin:10px;
     padding-bottom: 40px;
+}
+
+#info h2 {
+    color:#A82525;
+    font-family: 'Poiret One', cursive; 
+}
+
+#info h2 a{
+    text-decoration: none;
+    color: #A82525;
+    font-weight: normal;
+}
+#info h2 a:hover{
+    font-weight: bold;
+    color: black;
+}
+
+iframe{
+    padding: 30px;
 }
