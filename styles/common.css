@@ -21,30 +21,20 @@ html, body{
 }
 
 /*bouton du menu*/
-button{
+#menu a{
     color: white;
-    background-color: black;
-    height: 50px;
     cursor: pointer;
     font-family: 'Poiret One', cursive;
     font-size: 20px;  
     width: 100%;  
     border: none;
     padding: 12px 16px;
+    text-align: center;
 }
 
-/* flèche pour revenir en haut de page */
-#back_to_top{
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    color: white;
-    font-family: 'Poiret One', cursive; 
-    text-decoration: none;
-}
 
 /*quand on passe la souris sur le bouton*/
-button:hover{
+#menu a:hover{
     background-color: darkgray;
 }
 
