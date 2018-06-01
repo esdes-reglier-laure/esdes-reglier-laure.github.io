@@ -62,14 +62,38 @@ html, body{
     transition: all 3s ease;
 }
 
+/** section intro **/
 #intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    height: 90%;
+    width: 100%; 
     background-color: black;
-    color: white;
+}
+
+#intro article{
     font-family: 'Poiret One', cursive;
-    padding: 15px 10px 15px 10px;
     font-size: 18px;
-    text-align: justify;
-    padding: 10px 20px 10px 20px;
+    text-align: justify;  
+    padding : 0px 20px 0px 20px;
+}
+
+/** titre bienvenue **/
+#intro article h2{
+    font-size:20px;
+    color: white;
+}
+
+/** sous titre **/
+#intro article h3{
+    color:#B84C4C;
+}
+
+/** paragraphe **/
+#intro article p{
+    color: white;
 }
 
 span{
@@ -86,7 +110,7 @@ span{
     justify-content:center;
 }
 
-article{
+#main-page article{
     display: block;
     flex-direction: row;
     width: 20%;
@@ -101,7 +125,7 @@ article{
     color:black;
 }
 
-article:hover{
+#main-page article:hover{
     filter: grayscale(100%);
     transition: all 0.3s cubic-bezier(.01,.4,1,.62);
 }

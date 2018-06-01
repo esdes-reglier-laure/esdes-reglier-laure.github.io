@@ -29,53 +29,57 @@ html, body{
     color: white;
 }
 
-/** titre "incroyable recette" **/
-#recette h1{
-    font-family: 'Poiret One', cursive;   
-    font-size:30px;
+#recette{
+    height: 130%;
+    width: 100%;       
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
     background-color:white;
-    color:black;
+}
+
+#recette article{
+    font-family: 'Poiret One', cursive;   
+    padding : 0px 20px 0px 20px;
+}
+
+/** titre "incroyable recette" **/
+#recette article h2{
+    font-size:30px;
     text-align: center;
     color:#A82525;
 }
 
 /** description recette **/
-#recette h2{
-    font-family: 'Poiret One', cursive;   
+#recette article p{
     font-size:20px;
     color:black;
-    padding: 0px 20px 0px 20px;
     text-align: center;
     font-weight: normal;
 }
 
 /** sous titre ingrédients & préparation **/
-#recette h3{
-    font-family: 'Poiret One', cursive;   
+#recette article h3{
     font-size:20px;
     color:#A82525;
     font-weight: bold;
-    padding: 0px 0px 0px 20px;
     text-decoration: underline; 
 }
 
 /** conseils & variantes **/
-#recette h4{
-    font-family: 'Poiret One', cursive;   
+#recette article p{
     font-size:20px;
     color:black;
-    padding: 0px 20px 0px 20px;
     font-weight: normal;
     text-align: justify;
 }
 
 /** liste **/
 #recette li{
-    font-family: 'Poiret One', cursive;   
     font-size:20px;
     color:black;
     text-align: left;
-    padding: 0px 0px 0px 10px;
 }
 
 #recette ul{
@@ -103,10 +107,10 @@ span{
 /** autres sites **/
 
 #sites{
-    padding: 30px 0px 0px 20px;
+    padding: 20px 0px 0px 15px;
 }
 
-#sites p1{
+#sites p{
     font-family: 'Poiret One', cursive;   
     font-size:20px;
     color:black;
