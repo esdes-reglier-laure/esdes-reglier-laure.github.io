@@ -14,7 +14,7 @@ html, body{
     background-position: center;        
     display: flex;
     flex-direction: column;
-    background-attachment: absolute;
+    background-position: absolute;
 }
 
 /** titre animé "les muffins maison" **/
