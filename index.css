@@ -121,7 +121,6 @@ span{
     cursor: pointer;
     font-family: 'Poiret One', cursive; 
     text-decoration: none; 
-    color:black;
 }
 
 #main-page article:hover{
@@ -131,10 +130,10 @@ span{
 
 #article-1{background-image: url("img/cupcake.jpeg")}
 #article-2{background-image: url("img/gallery.jpg")}
-#article-3{background-image: url("img/makeup.jpeg")}
+#article-3{background-image: url("img/nails.jpeg")}
 #article-4{background-image: url("img/pictures.jpeg")}
 #article-5{background-image: url("img/women.jpeg")}
-#article-6{background-image: url("img/nails.jpeg")}
+#article-6{background-image: url("img/makeup.jpeg")}
 
 /* pour retirer le soulignage et la couleur des liens */
 a{ 
