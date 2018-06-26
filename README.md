@@ -33,7 +33,16 @@ Cible : grand public féminin (jeune)
 - description d'une activité que je réalise : la peinture
 - un encart "vous aimerez peut-être" pour faire des liens avec d'autres articles de mon blog
 
-NB : les autres articles sont en cours de création
+## Article 3 (nail art)
+en cours de construction
+
+## Article 4 (mode)
+en cours de construction
+
+## Article 5 (voyage)
+en cours de construction
+
+NB : certains articles sont en cours de création
 
 ### Références : 
 - http://alittledaisyblog.com/ 
