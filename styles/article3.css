@@ -67,24 +67,32 @@ html, body{
     margin: 30px;
 }
 
+#pictures article img:hover{
+    width:500px;
+    height:300px;
+    transition: all 0.5s cubic-bezier(.01,.4,1,.62);
+}
+
 /** bandeau rose en bas**/
-#merci{
+#materiel{
     width:100%;
-    height: 30%;
+    height: 60%;
     background-color: pink;
     color: white;
     font-family: 'Poiret One', cursive;   
 }
 
-#merci h2{
+#materiel h2{
     text-align: center;
     margin: 40px 20px 0px 20px;
     padding: 20px;
 }
 
-#merci p{
+#materiel p{
     margin: 0px 20px 20px 20px;
+    text-align: center;
 }
+
 
 /* définition de l'animation */
 @keyframes enter {

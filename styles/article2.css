@@ -61,6 +61,7 @@ html, body{
     flex-direction: row;
     justify-content: space-between; 
     align-items: center;
+    background-image: url("../img/paint.jpg");
     /** mettre  background-image: url"(../img/shane.jpg)"  quand autorisation **/
     background-repeat: no-repeat;
     background-size: 35%;
@@ -78,7 +79,10 @@ html, body{
     text-align: center;
 }
 
-/** mettre #article1:hover{ background-image: url"(../img/nyc.jpg)"  quand autorisation **/
+#article1:hover{
+    filter: grayscale(100%);
+}
+/** mettre #article1:hover{background-image: url"(../img/nyc.jpg)"  quand autorisation **/
 
 
 #article1 p{
@@ -102,14 +106,18 @@ html, body{
     flex-direction: row-reverse;
     justify-content: space-between; 
     align-items: center;
-   /** mettre  background-image: url"(../img/giuseppe.png)"  quand autorisation **/
+    background-image:url("../img/paint2.jpg");
+   /** mettre  background-image: url("../img/giuseppe.png")  quand autorisation **/
     background-repeat: no-repeat;
-    background-size: 17%;
+    background-size: 35%;
     background-color: black;
-    background-position: 20%;
+    background-position: 13%;
 }
 
-    /** mettre #article2:hover{ background-image: url"(../img/woman.jpg)"  quand autorisation **/
+#article2:hover{
+    filter: grayscale(100%);
+}
+    /** mettre #article2:hover{ background-image: url("../img/woman.jpg")  quand autorisation **/
 
 
 #article2 article{
