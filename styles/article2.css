@@ -78,9 +78,8 @@ html, body{
     text-align: center;
 }
 
-#article1:hover{
-/** mettre  background-image: url"(../img/nyc.jpg)"  quand autorisation **/
-}
+/** mettre #article1:hover{ background-image: url"(../img/nyc.jpg)"  quand autorisation **/
+
 
 #article1 p{
     text-align: justify;
@@ -110,9 +109,8 @@ html, body{
     background-position: 20%;
 }
 
-#article2:hover{
-    /** mettre  background-image: url"(../img/woman.jpg)"  quand autorisation **/
-}
+    /** mettre #article2:hover{ background-image: url"(../img/woman.jpg)"  quand autorisation **/
+
 
 #article2 article{
     height: 100%;

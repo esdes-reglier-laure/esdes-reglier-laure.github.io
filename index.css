@@ -131,8 +131,8 @@ span{
 #article-1{background-image: url("img/cupcake.jpeg")}
 #article-2{background-image: url("img/gallery.jpg")}
 #article-3{background-image: url("img/nails.jpeg")}
-#article-4{background-image: url("img/pictures.jpeg")}
-#article-5{background-image: url("img/women.jpeg")}
+#article-4{background-image: url("img/casual.jpg")}
+#article-5{background-image: url("img/pictures.jpeg")}
 #article-6{background-image: url("img/makeup.jpeg")}
 
 /* pour retirer le soulignage et la couleur des liens */
@@ -144,7 +144,9 @@ a{
 
 /* responsive */
 /* mobile */
-@media screen and (max-width: 600px) {
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) {
     section{
         flex-wrap: nowrap;
         flex-direction: column;
@@ -154,6 +156,12 @@ a{
         width: 80%;
     }
 }
+
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) { /* STYLES GO HERE */}
+
 
 /* tablet */
 @media screen and (min-width: 600px) and (max-width: 900px) {
